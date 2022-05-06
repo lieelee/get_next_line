@@ -3,7 +3,7 @@
   </h1>
 
 <p><b><i> The ‘get_next_file.c’ returns one line at the time. </i></b></p>
-  <br>The main function in the ‘main.c’ file is written to display all lines using a while loop until the end of file. 
+  <br>The main function in the ‘main.c’ file is written to display all lines using a while loop until the end of file.<br>
   
 ![2021-03-22 15 28 58](https://user-images.githubusercontent.com/52679439/112067266-02165180-8b25-11eb-8132-bc43fde80718.gif)
 
