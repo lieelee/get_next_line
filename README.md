@@ -3,10 +3,11 @@
   </h1>
 
 <p><b><i>Reading a line on a fd is way too tedious</i</b> </p>
-
+The ‘get_next_file.c’ returns one line at the time but the main function in the ‘main.c’ file is written to display all lines using a while loop until the end of file. 
+  
 ![2021-03-22 15 28 58](https://user-images.githubusercontent.com/52679439/112067266-02165180-8b25-11eb-8132-bc43fde80718.gif)
 
-The ‘get_next_file.c’ returns one line at the time but the main function in the ‘main.c’ file is written to display all lines using a while loop until the end of file. 
+
 
 
 # get_next_line
