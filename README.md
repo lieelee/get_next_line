@@ -23,6 +23,10 @@ int	get_next_line(int fd, char **line);
 
 Because the static variable is saved in the data segment, it is not impacted by scope rules. As a result, I utilize a static variable to keep data of a specific size while the program is running. 
 
+```C
+static t_list	*head;
+```
+
 **2. Memory allocation**
 Because the size of input files can vary, the memory for each function call is set to the size of BUFF. The BUFF SIZE is set to 1, although it can be changed manually to any size. The allocated memory is stored in the heap memory. 
 
