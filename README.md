@@ -19,7 +19,7 @@ int	get_next_line(int fd, char **line);
 
 ## Key concepts 
 
-**1. Static variable**
+### 1. Static variable
 
 Because the static variable is saved in the data segment, it is not impacted by scope rules. As a result, I utilize a static variable to keep data of a specific size while the program is running. 
 
