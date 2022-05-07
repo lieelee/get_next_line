@@ -60,6 +60,22 @@ Since we can pass multiple files with various sizes, the memory is dynamically a
 We have no idea how big the memory is. We can maintain track of the information and expand it as needed with linked lists.
 
 
+## Implementation 
+
+1. The size of BUFF memory is dynamically allocated with a NULL terminating placeholder. 
+ 
+2. The memory is saved until it reaches a newline character”\n”. Then ‘\0’ Null terminator is added to mark the end of the string. 
+ 
+3. Multiple files are managed with a double pointer. 
+ 
+4. If a string from the last function call is still present, it is concatenated with a new string. 
+ 
+5. When successful, it returns 1 and displays a line of text. 
+
+6. Free the remaining memory and save the content by using the temporary variable. 
+
+
+
 For more detailed information, please read 
 [get_next_line.en (dragged).pdf](https://github.com/yeonuklee/get_next_line/files/6067156/get_next_line.en.dragged.pdf)
 [get_next_line.en (dragged).pdf](https://github.com/yeonuklee/get_next_line/files/6067157/get_next_line.en.dragged.pdf)
